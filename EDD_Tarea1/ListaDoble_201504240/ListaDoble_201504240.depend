@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512969135 source:/home/carlos-torres/Documentos/EDD_Tarea1/ListaDoble_201504240/ListaDoble.c
+	"ListaDoble.h"
+
+1512969010 /home/carlos-torres/Documentos/EDD_Tarea1/ListaDoble_201504240/ListaDoble.h
+
+1512967959 source:/home/carlos-torres/Documentos/EDD_Tarea1/ListaDoble_201504240/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDoble.h"
+
