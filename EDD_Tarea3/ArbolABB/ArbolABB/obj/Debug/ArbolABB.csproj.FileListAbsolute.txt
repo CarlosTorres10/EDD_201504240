@@ -1,0 +1,6 @@
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\bin\Debug\ArbolABB.exe.config
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\bin\Debug\ArbolABB.exe
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\bin\Debug\ArbolABB.pdb
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\obj\Debug\ArbolABB.csprojResolveAssemblyReference.cache
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\obj\Debug\ArbolABB.exe
+c:\users\chato\documents\visual studio 2015\Projects\ArbolABB\ArbolABB\obj\Debug\ArbolABB.pdb
