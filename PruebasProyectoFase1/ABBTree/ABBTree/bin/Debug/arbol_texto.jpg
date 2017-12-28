@@ -1,0 +1,20 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo1 [ label ="<C0>|Juan|<C1>"];
+nodo1 [ label ="<C0>|Diego|<C1>"];
+nodo1 [ label ="Alejandro"];
+nodo1:C0->nodo1
+nodo1:C0->nodo1
+nodo1 [ label ="<C0>|Pedro|<C1>"];
+nodo1 [ label ="<C0>|María|<C1>"];
+nodo1 [ label ="Manuel"];
+nodo1:C0->nodo1
+nodo1:C0->nodo1
+nodo1 [ label ="<C0>|Roberto|<C1>"];
+nodo1 [ label ="Teodoro"];
+nodo1:C1->nodo1
+nodo1:C1->nodo1
+nodo1:C1->nodo1
+}
+

@@ -1,0 +1,33 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=aquamarine2];
+nodo0 [ label ="Oponente: pez\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo1 [ label ="Oponente: pollo\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo2 [ label ="Oponente: pozo\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo3 [ label ="Oponente: tele\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo4 [ label ="Oponente: leon\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo5 [ label ="Oponente: pinguino\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo6 [ label ="Oponente: sillon\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo7 [ label ="Oponente: kevin\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo8 [ label ="Oponente: kevin\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo9 [ label ="Oponente: kevin\n Unidades Desplegadas: 10\n Unidades Sobrevivientes: 11\n Unidades Destruidas: 12\n Estado Victoria: 0"];
+nodo0->nodo1;
+nodo1->nodo0;
+nodo1->nodo2;
+nodo2->nodo1;
+nodo2->nodo3;
+nodo3->nodo2;
+nodo3->nodo4;
+nodo4->nodo3;
+nodo4->nodo5;
+nodo5->nodo4;
+nodo5->nodo6;
+nodo6->nodo5;
+nodo6->nodo7;
+nodo7->nodo6;
+nodo7->nodo8;
+nodo8->nodo7;
+nodo8->nodo9;
+nodo9->nodo8;
+nodo9->nodo10;
+}
