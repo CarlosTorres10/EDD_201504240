@@ -1,0 +1,95 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=burlywood2];
+g [label="<f0> | <f1>g |<f2>"];
+f [label="<f0> |<f1>f |<f2>"];
+g:f0 -> f:f1;
+f:f1 -> "Usuario: f, 
+ Oponente: pinguino, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+a [label="<f0> |<f1>a |<f2>"];
+f:f0 -> a:f1;
+a:f1 -> "Usuario: a, 
+ Oponente: leon, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+b [label="<f0> |<f1>b |<f2>"];
+a:f2 -> b:f1;
+b:f1 -> "Usuario: b, 
+ Oponente: sillon, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+r [label="<f0> |<f1>r |<f2>"];
+g:f2 -> r:f1;
+r:f1 -> "Usuario: r, 
+ Oponente: pollo, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+l [label="<f0> |<f1>l |<f2>"];
+r:f0 -> l:f1;
+l:f1 -> "Usuario: l, 
+ Oponente: tele, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+h [label="<f0> |<f1>h |<f2>"];
+l:f0 -> h:f1;
+h:f1 -> "Usuario: h, 
+ Oponente: kevin, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+m [label="<f0> |<f1>m |<f2>"];
+l:f2 -> m:f1;
+m:f1 -> "Usuario: m, 
+ Oponente: pez, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+mario [label="<f0> |<f1>mario |<f2>"];
+m:f2 -> mario:f1;
+t [label="<f0> |<f1>t |<f2>"];
+r:f2 -> t:f1;
+t:f1 -> "Usuario: t, 
+ Oponente: pozo, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+s [label="<f0> |<f1>s |<f2>"];
+t:f0 -> s:f1;
+s:f1 -> "Usuario: s, 
+ Oponente: kevin, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+v [label="<f0> |<f1>v |<f2>"];
+t:f2 -> v:f1;
+v:f1 -> "Usuario: v, 
+ Oponente: kevin2, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+u [label="<f0> |<f1>u |<f2>"];
+v:f0 -> u:f1;
+u:f1 -> "Usuario: u, 
+ Oponente: kevin4, 
+ Unidades Desplegadas: 10, 
+ Unidades Sobrevivientes: 11, 
+ Unidades Destruidas: 12, 
+ Victoria: 0"[dir=both];
+}

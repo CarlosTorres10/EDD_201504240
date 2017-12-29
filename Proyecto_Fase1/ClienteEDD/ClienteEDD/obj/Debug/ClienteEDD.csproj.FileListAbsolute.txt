@@ -1,0 +1,10 @@
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\bin\Debug\ClienteEDD.exe.config
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\bin\Debug\ClienteEDD.exe
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\bin\Debug\ClienteEDD.pdb
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.csprojResolveAssemblyReference.cache
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.Form1.resources
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.Properties.Resources.resources
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.csproj.GenerateResource.Cache
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.exe
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.pdb
+c:\users\chato\documents\visual studio 2015\Projects\ClienteEDD\ClienteEDD\obj\Debug\ClienteEDD.FormularioPrincipal.resources

@@ -1,0 +1,12 @@
+digraph{
+rankdir=TB;
+node [shape=rectangle];
+graph[ nodesep = 0.5];
+CAB -> CD[dir=both];
+CAB -> F26[dir=both];
+F26->satelite1[dir=both];
+satelite1[color=red]
+CD->satelite1[dir=both];
+ { rank=same; CAB CD }
+ { rank=same; F26 satelite1 }
+}
