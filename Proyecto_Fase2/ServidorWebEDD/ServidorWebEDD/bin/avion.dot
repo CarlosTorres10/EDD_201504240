@@ -1,0 +1,36 @@
+digraph{
+rankdir=TB;
+node [shape=rectangle];
+graph[ nodesep = 0.5];
+CAB -> CD[dir=both];
+CAB -> F3[dir=both];
+F3->F8[dir=both];
+F8->F9[dir=both];
+F9->F10[dir=both];
+CD->CE[dir=both];
+CE->CF[dir=both];
+CF->CI[dir=both];
+F3->"avion2.0"[constraint=false, dir=both];
+"avion2.0"->"avion2.1"[constraint=false, dir=both];
+"avion2.0"[color=green]
+"avion2.1"->"avion2.2"[constraint=false, dir=both];
+"avion2.1"[color=green]
+"avion2.2"[color=green]
+F8->"avion3.0"[constraint=false, dir=both];
+"avion3.0"[color=green]
+F9->"avion3.1"[constraint=false, dir=both];
+"avion3.1"[color=green]
+F10->"avion3.2"[dir=both];
+"avion3.2"[color=green]
+CD->"avion2.0"[dir=both];
+CE->"avion2.1"[dir=both];
+CF->"avion2.2"[dir=both];
+CI->"avion3.0"[dir=both];
+"avion3.0"->"avion3.1"[dir=both];
+"avion3.1"->"avion3.2"[dir=both];
+ { rank=same; CAB CD CE CF CI }
+ { rank=same; F3 "avion2.0" "avion2.1" "avion2.2" }
+ { rank=same; F8 "avion3.0" }
+ { rank=same; F9 "avion3.1" }
+ { rank=same; F10 "avion3.2" }
+}

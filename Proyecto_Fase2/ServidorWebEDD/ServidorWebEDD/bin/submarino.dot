@@ -1,0 +1,23 @@
+digraph{
+rankdir=TB;
+node [shape=rectangle];
+graph[ nodesep = 0.5];
+CAB -> CQ[dir=both];
+CAB -> F11[dir=both];
+F11->F12[dir=both];
+F12->F21[dir=both];
+CQ->CR[dir=both];
+F11->"submarino3.0"[constraint=false, dir=both];
+"submarino3.0"[color=red]
+F12->"submarino3.1"[constraint=false, dir=both];
+"submarino3.1"[color=red]
+F21->submarino2[dir=both];
+submarino2[color=green]
+CQ->submarino2[dir=both];
+CR->"submarino3.0"[dir=both];
+"submarino3.0"->"submarino3.1"[dir=both];
+ { rank=same; CAB CQ CR }
+ { rank=same; F11 "submarino3.0" }
+ { rank=same; F12 "submarino3.1" }
+ { rank=same; F21 submarino2 }
+}

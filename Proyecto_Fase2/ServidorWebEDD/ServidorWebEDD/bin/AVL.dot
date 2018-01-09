@@ -1,0 +1,22 @@
+digraph{
+node [shape=record];
+"Gay Ferrell" [label="<f0> |<f1>Gay Ferrell |<f2>"];
+"Aidan Padilla" [label="<f0> |<f1>Aidan Padilla |<f2>"];
+"Deborah Thomas":f0 -> "Aidan Padilla":f1;
+"Otto Vaughan" [label="<f0> |<f1>Otto Vaughan |<f2>"];
+"Pandora Fisher":f0 -> "Otto Vaughan":f1;
+"Ronan Holman" [label="<f0> |<f1>Ronan Holman |<f2>"];
+"Pandora Fisher":f2 -> "Ronan Holman":f1;
+"Ulla Patrick" [label="<f0> |<f1>Ulla Patrick |<f2>"];
+"lol2":f0 -> "Ulla Patrick":f1;
+"lol3" [label="<f0> |<f1>lol3 |<f2>"];
+"lol2":f2 -> "lol3":f1;
+"Pandora Fisher" [label="<f0> |<f1>Pandora Fisher |<f2>"];
+"Sage Mendoza":f0 -> "Pandora Fisher":f1;
+"lol2" [label="<f0> |<f1>lol2 |<f2>"];
+"Sage Mendoza":f2 -> "lol2":f1;
+"Deborah Thomas" [label="<f0> |<f1>Deborah Thomas |<f2>"];
+"Gay Ferrell":f0 -> "Deborah Thomas":f1;
+"Sage Mendoza" [label="<f0> |<f1>Sage Mendoza |<f2>"];
+"Gay Ferrell":f2 -> "Sage Mendoza":f1;
+}

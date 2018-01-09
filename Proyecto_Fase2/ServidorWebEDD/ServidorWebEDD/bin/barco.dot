@@ -1,0 +1,37 @@
+digraph{
+rankdir=TB;
+node [shape=rectangle];
+graph[ nodesep = 0.5];
+CAB -> CJ[dir=both];
+CAB -> F17[dir=both];
+F17->F18[dir=both];
+F18->F26[dir=both];
+F26->F29[dir=both];
+CJ->CM[dir=both];
+CM->CO[dir=both];
+CO->CP[dir=both];
+CP->CQ[dir=both];
+F17->"barco4.0"[constraint=false, dir=both];
+"barco4.0"[color=green]
+F18->"barco4.1"[constraint=false, dir=both];
+"barco4.1"[color=green]
+F26->barco3[constraint=false, dir=both];
+barco3[color=green]
+F29->"barco5.0"[dir=both];
+"barco5.0"->"barco5.1"[dir=both];
+"barco5.0"[color=green]
+"barco5.1"->"barco5.2"[dir=both];
+"barco5.1"[color=green]
+"barco5.2"[color=green]
+CJ->barco3[dir=both];
+CM->"barco4.0"[dir=both];
+"barco4.0"->"barco4.1"[dir=both];
+CO->"barco5.0"[dir=both];
+CP->"barco5.1"[dir=both];
+CQ->"barco5.2"[dir=both];
+ { rank=same; CAB CJ CM CO CP CQ }
+ { rank=same; F17 "barco4.0" }
+ { rank=same; F18 "barco4.1" }
+ { rank=same; F26 barco3 }
+ { rank=same; F29 "barco5.0" "barco5.1" "barco5.2" }
+}
