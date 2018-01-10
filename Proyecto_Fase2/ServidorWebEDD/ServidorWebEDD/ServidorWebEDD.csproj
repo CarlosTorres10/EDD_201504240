@@ -122,6 +122,7 @@
     <Compile Include="ListaMatrizBidimensional.cs" />
     <Compile Include="MatrizBidimensional.cs" />
     <Compile Include="Nodo.cs" />
+    <Compile Include="NodoAVL.cs" />
     <Compile Include="NodoListaDoble.cs" />
     <Compile Include="NodoMatriz.cs" />
     <Compile Include="NodoMatrizBidimensional.cs" />
